@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+.article-meta {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    article {
+        padding: 10px;
+    }
+}
